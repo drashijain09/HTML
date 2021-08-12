@@ -1,17 +1,28 @@
-h1{
-	background-color: lightblue;
-	text-align: center;
-	justify-items: center;
-	font-family: cursive;
-	font-size: 50px;
+
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+
+.header h1 {
+  position: relative;
+  top: 25px;
+  left: 10px;
+  font-family: cursive;
+  color: darkgreen;
+display: block;
 }
 h4
 {
-	background-color: ;
-	text-align: right;
+   display: block;
+	text-align: left;
 	justify-items: center;
-	font-size: 25px;
+	font-size: 15px;
 	font-family: serif;
+	padding: 20px;
+	padding-bottom: 20px;
 }
 ul {
   list-style-type: none;
@@ -36,7 +47,21 @@ li a {
 li a:hover:not(.active) {
   background-color: #111;
 }
+h5
+{
+	display: block;
+	color: darkblue;
+	font-size: 30px;
+	font-family: serif;
 
-.active {
-  background-color: #04AA6D;
+}
+.form
+{
+	margin: auto;
+	text-align: center;
+	align-content: center;
+	background-color: lightgrey;
+  border: 5px solid green;
+  padding: 10px;
+  margin: 20px;
 }
