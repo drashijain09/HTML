@@ -55,6 +55,20 @@ h5
 	font-family: serif;
 
 }
+.column {
+  float: left;
+  width: 30%;
+  padding: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 .form
 {
 	margin: auto;
@@ -64,4 +78,26 @@ h5
   border: 5px solid green;
   padding: 10px;
   margin: 20px;
+}
+.para1
+{
+text-align: center;
+padding: 10px;
+font-size: 20px;
+justify-items: center;
+font-family: serif;
+}
+.para2
+{
+text-align: center;
+padding: 10px;
+font-size: 18px;
+justify-items: center;
+font-family: serif;
+}
+h3{
+  text-align: center;
+  font-size: 39px;
+  color: lightseagreen;
+  font-family: cursive;
 }
