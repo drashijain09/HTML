@@ -16,6 +16,28 @@
   color: darkgreen;
 display: block;
 }
+
+#myBtn {
+        position: fixed;
+        bottom: 10px;
+        float: right;
+        right: 20%;
+        transition: ease;
+        left: 90%;
+        max-width: 120px;
+        width: 100%;
+        font-size: 20px;
+        border-color: rgba(85, 85, 85, 0.2);
+        background-color: black;
+        padding: .5px;
+        border-radius: 4px;
+
+    }
+/*On Hover Color Change*/
+    #myBtn:hover {
+        background-color: #7dbbf1;
+    }
+
 h4
 {
    display: block;
