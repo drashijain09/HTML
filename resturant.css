@@ -1,6 +1,8 @@
 
 .header img {
+  position: relative;
   float: left;
+  top: 35px;
   width: 100px;
   height: 100px;
   background: #555;
@@ -8,8 +10,8 @@
 
 .header h1 {
   position: relative;
-  top: 25px;
-  left: 10px;
+  top: 30px;
+  left: 5px;
   font-family: cursive;
   color: darkgreen;
 display: block;
@@ -17,36 +19,47 @@ display: block;
 h4
 {
    display: block;
-	text-align: left;
+   position: relative;
+  top: -5px;
+  left: 170px;
+
 	justify-items: center;
 	font-size: 15px;
 	font-family: serif;
 	padding: 20px;
 	padding-bottom: 20px;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+
+
+.navbar {
   overflow: hidden;
   background-color: #333;
+  position: fixed;
+   top: 0;
+  width: 100%;
 }
 
-li {
+.navbar a {
   float: left;
-}
-
-li a {
   display: block;
-  color: white;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
 }
 
-li a:hover:not(.active) {
-  background-color: #111;
+.navbar a:hover {
+  background: #ddd;
+  color: black;
 }
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+}
+
 h5
 {
 	display: block;
@@ -191,3 +204,15 @@ font-size: 25px;
 justify-items: center;
 font-family: serif;
 }
+
+.cusine
+{
+  font-family: cursive;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 50px;
+  justify-items: center;
+  text-align: center;
+  color: darkslateblue;
+}
+
